@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+#hero {
+  background-image: url('hero.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+#signup-btn {
+  background-color: #f1c40f;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+#features {
+  width: 100%;
+}
+
+#features h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#features ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#features li {
+  flex: 1;
+  padding: 1rem;
+}
+
+#features li h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#features li p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  width: 100%;
+}
+
+#testimonials h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials blockquote {
+  background-color: #f9f9f9;
+  border-left: 4px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials blockquote p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials blockquote cite {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
